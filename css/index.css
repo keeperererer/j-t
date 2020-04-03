@@ -474,6 +474,13 @@ h1 span {
   margin: 0 10px;
   /*color: #333;*/
   background-color: #ededed;
+  border-bottom: 2px #ededed solid;
+  border-top: 2px #ededed solid;
+  transition: all 0.8s;
+}
+.links li:hover {
+  border-bottom: 2px #ccc solid;
+  border-top: 2px #ccc solid;
 }
 .links li a {
   color: #333;
@@ -483,6 +490,18 @@ h1 span {
   color: #f4792c;
   font-size: 20px;
 }
+/*.links_border {
+    display: inline-block;
+    width: 198px;
+    border-bottom: 2px #d34444 solid;
+    transition: all 0.8s;
+    position: absolute;
+    bottom: 0;
+    left: 10px
+}
+.links_border:hover{
+  width: 0;
+}*/
 footer {
   margin-top: 30px;
   background-color: #4b4949;
