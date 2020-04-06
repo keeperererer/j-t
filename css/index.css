@@ -886,6 +886,7 @@ footer > p {
   float: left;
   padding: 19px;
   transition: all 0.5s;
+  padding-bottom: 13px;
 }
 #nav li:hover {
   background-color: #2954a2;
@@ -895,26 +896,112 @@ footer > p {
   text-decoration: none;
   color: #fff;
 }
-#nav ul {
-  width: 102px;
+#nav .firs_nav {
+  width: 110px;
   background-color: #2954a2;
   position: absolute;
   display: none;
   margin-left: 0;
-  top: 58px;
+  top: 52px;
   left: 0;
 }
-#nav ul li {
+#nav .firs_nav li {
   list-style: none;
   color: #fff;
   font-size: 14px;
   height: 10px;
   line-height: 10px;
   text-align: center;
+  padding: 23px;
 }
-#nav ul li a:hover {
+#nav .firs_nav li a:hover {
   color: #f4792c;
 }
-#nav li:hover ul {
+#nav li:hover .firs_nav {
   display: block;
+}
+.firs_nav ul {
+  width: 102px;
+  background-color: #2954a2;
+  position: absolute;
+  left: 100px;
+  top: 0;
+  display: none;
+}
+.firs_nav li:hover ul {
+  display: block;
+}
+.firs_nav li ul:hover {
+  display: block;
+}
+
+/* ------------------------------------newnav */
+.newnav_left p {
+  height: 60px;
+  line-height: 60px;
+  margin-bottom: 0;
+  /* border-left: 2px #d6d6d6 solid; */
+}
+/*.newnav_lists {
+  list-style: none;
+  border-left: 2px #d6d6d6 solid;
+}
+.newnav_lists .slide_li {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 50px;
+  border-bottom: 1px #d6d6d6 solid;
+  transition: all 0.8s;
+  cursor: pointer;
+} */
+.newnav_lists {
+  border-left: 2px #d6d6d6 solid;
+}
+.slide_li {
+  line-height: 50px;
+}
+.slide_li p {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 50px;
+  border-bottom: 1px #d6d6d6 solid;
+}
+.slide_li p:hover {
+  background-color: #f4792c;
+  color: #fff;
+}
+.slide_li a {
+  display: block;
+  height: 50px;
+  text-align: center;
+  /* font-size: 16px; */
+  /* border-radius: 10px; */
+}
+.slide_li .li_down {
+  display: none;
+  margin: 0;
+  border-left: 1px #d6d6d6 solid;
+}
+.slide_li:hover .li_down {
+  display: block;
+}
+.li_down dt {
+  background-color: #fff;
+  color: #333;
+}
+.li_down dt a {
+  display: block;
+  height: 50px;
+  color: #333;
+  border-bottom: 1px #d6d6d6 solid;
+  /* text-align: center; */
+  /* font-size: 16px; */
+  /* border-radius: 10px; */
+}
+.li_down dt a:hover {
+  color: #f4792c;
+}
+
+.seedetail a {
+  color: #191919;
 }
