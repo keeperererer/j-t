@@ -840,7 +840,6 @@ footer > p {
   display: inline-block;
   height: 200px;
   line-height: 200px;
-  /* border: 1px #ccc solid; */
   background-color: #3f51b5;
   margin-bottom: 10px;
   margin-right: 5px;
@@ -859,14 +858,15 @@ footer > p {
 .teacher_down {
   display: none;
 }
-.teacher_down li {
-  list-style: none;
+.teacher_down li:hover {
+  background-color: #fff;
 }
 .teacher_down li a {
   color: #666;
 }
 .teacher_down li a:hover {
-  color: #fff;
+  color: #f4792c;
+  background-color: #fff;
 }
 
 #nav {
@@ -940,20 +940,7 @@ footer > p {
   height: 60px;
   line-height: 60px;
   margin-bottom: 0;
-  /* border-left: 2px #d6d6d6 solid; */
 }
-/*.newnav_lists {
-  list-style: none;
-  border-left: 2px #d6d6d6 solid;
-}
-.newnav_lists .slide_li {
-  height: 50px;
-  line-height: 50px;
-  padding-left: 50px;
-  border-bottom: 1px #d6d6d6 solid;
-  transition: all 0.8s;
-  cursor: pointer;
-} */
 .newnav_lists {
   border-left: 2px #d6d6d6 solid;
 }
@@ -973,9 +960,7 @@ footer > p {
 .slide_li a {
   display: block;
   height: 50px;
-  text-align: center;
-  /* font-size: 16px; */
-  /* border-radius: 10px; */
+  padding-left: 70px;
 }
 .slide_li .li_down {
   display: none;
@@ -992,16 +977,12 @@ footer > p {
 .li_down dt a {
   display: block;
   height: 50px;
-  color: #333;
+  color: #666;
   border-bottom: 1px #d6d6d6 solid;
-  /* text-align: center; */
-  /* font-size: 16px; */
-  /* border-radius: 10px; */
 }
 .li_down dt a:hover {
   color: #f4792c;
 }
-
 .seedetail a {
   color: #191919;
 }
