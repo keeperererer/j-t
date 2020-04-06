@@ -52,3 +52,16 @@ function start() {
   interval = setInterval('changePos()', delay)
 }
 start()
+
+$(function () {
+  $('#nav li')
+    .has('ul')
+    .mouseover(function () {
+      $(this).children('ul').css('display', 'block')
+      // $(this).css('backgroundColor', '#0066FF')
+    })
+    .mouseout(function () {
+      $(this).children('ul').css('display', 'none')
+      // $(this).css('backgroundColor', '#eee')
+    })
+})

@@ -913,27 +913,28 @@ footer > p {
   line-height: 10px;
   text-align: center;
   padding: 23px;
+  /* border-bottom: 1px #fff solid; */
 }
 #nav .firs_nav li a:hover {
   color: #f4792c;
 }
-#nav li:hover .firs_nav {
+/* #nav li:hover .firs_nav {
   display: block;
-}
+} */
 .firs_nav ul {
   width: 102px;
   background-color: #2954a2;
   position: absolute;
-  left: 100px;
+  left: 104px;
   top: 0;
   display: none;
 }
-.firs_nav li:hover ul {
+/* .firs_nav li:hover ul {
   display: block;
 }
 .firs_nav li ul:hover {
   display: block;
-}
+} */
 
 /* ------------------------------------newnav */
 .newnav_left p {
