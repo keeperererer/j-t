@@ -1073,3 +1073,28 @@ footer > p {
 .teacer_hover:hover .teacher_intro {
   display: block;
 }
+/* new  ----------------teacher_detail.css */
+.new_con_teachers li {
+  display: inline-block;
+  width: 44%;
+  background-color: #eeeeee;
+  margin: 2%;
+  padding: 5px;
+  vertical-align: top;
+}
+.teacher_textL {
+  float: left;
+}
+.teacher_text img {
+  width: 140px;
+  height: 204px;
+  margin-right: 2px;
+}
+.teacher_text h4 {
+  font-weight: 100;
+  color: #f68428;
+  margin-bottom: 5px;
+}
+.teacher_textR span {
+  font-size: 14px;
+}
