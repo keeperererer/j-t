@@ -1,11 +1,11 @@
-@font-face {
+/* @font-face {
   font-family: 'Josefin Sans';
   src: url('../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf');
 }
 @font-face {
   font-family: 'PT Sans';
   src: url('../fonts/PT_Sans/PTSans-Regular.ttf');
-}
+} */
 html,
 body {
   width: 100%;
@@ -39,6 +39,9 @@ header {
   width: 1300px;
   margin: 0 auto;
 }
+.schoollogo {
+  width: 250px;
+}
 .logo_name {
   display: inline-block;
   color: white;
@@ -51,7 +54,7 @@ header {
   width: 220px;
 }
 .logo_name2 {
-  width: 383px;
+  width: 500px;
   top: 50px;
   left: 280px;
   font-family: 'Josefin Sans', sans-serif;
@@ -117,7 +120,7 @@ span.letter {
 }
 h1 span {
   color: #fff;
-  font-size: 48px;
+  font-size: 38px;
 }
 .nav_self {
   vertical-align: top;
@@ -199,7 +202,7 @@ h1 span {
   line-height: 30px;
 }
 .published32 {
-  padding-left: 65px;
+  padding-left: 55px;
 }
 .published3 i,
 .published32 i {
@@ -224,7 +227,7 @@ h1 span {
   color: #3f3f3f;
   font-size: 13px;
   font-weight: 500;
-  padding: 10px 25px;
+  padding: 8px 20px;
   text-transform: capitalize;
   transition: all 0.3s ease-out 0s;
   border-radius: 5px;
@@ -235,12 +238,14 @@ h1 span {
   display: inline-block;
   vertical-align: top;
   font-family: 'PT Sans', sans-serif;
+  position: relative;
 }
 .xueyuannew > p {
   font-size: 20px;
   color: #2954a2;
   border-bottom: 2px #2954a1 solid;
   height: 38px;
+  margin-bottom: 10px;
 }
 .xueyuan_new1 {
   padding-bottom: 20px;
@@ -269,6 +274,7 @@ h1 span {
   font-family: 'PT Sans', sans-serif;
 }
 .xueyuannotice > p {
+  margin-bottom: 10px;
   font-size: 20px;
   color: #f4792c;
   border-bottom: 2px #f4792c solid;
@@ -328,10 +334,12 @@ h1 span {
   font-family: 'PT Sans', sans-serif;
 }
 .other2 {
-  width: 850px;
-  height: 400px;
+  width: 600px;
+  height: 320px;
   display: inline-block;
   vertical-align: top;
+  padding: 0 15px;
+  position: relative;
 }
 .other2 > p {
   font-size: 20px;
@@ -343,32 +351,36 @@ h1 span {
   padding-bottom: 20px;
 }
 .other2_news > li {
-  width: 380px;
+  width: 580px;
   list-style: none;
   padding: 10px;
-  display: inline-block;
+  /* display: inline-block; */
   height: 30px;
   line-height: 30px;
-  max-width: 390px;
+  max-width: 590px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   /*border-bottom: 1px #ccc solid;*/
 }
-.other2_news > li:nth-child(even) {
+/* .other2_news > li:nth-child(even) {
   margin-left: 2em;
-}
+} */
 .other2_news > li > span {
   color: #2954a2;
   margin-right: 20px;
 }
+.otherright {
+  margin-left: 3.5em;
+  padding: 0;
+}
 .other22 {
-  width: 400px;
+  width: 600px;
   height: 342px;
   display: inline-block;
   /* background-color: #ccc; */
   vertical-align: top;
-  margin-left: 2.7em;
+  margin-left: 3.5em;
   border: 1px #ccc solid;
 }
 .other22 > p {
@@ -430,10 +442,10 @@ h1 span {
 }
 .other1_news > li {
   list-style: none;
-  padding: 10px;
+  padding: 5px;
   /*display: inline-block;*/
-  height: 30px;
-  line-height: 30px;
+  height: 45px;
+  line-height: 45px;
   /*border-bottom: 1px #ccc solid;*/
 }
 .other1_news > li > span:nth-child(1) {
@@ -441,16 +453,21 @@ h1 span {
   display: inline-block;
   background: #f4792c;
   margin-right: 40px;
-  width: 90px;
+  width: 100px;
   height: 45px;
   line-height: 45px;
   text-align: center;
+  vertical-align: top;
 }
 .other1_news > li > span:nth-child(2) {
-  width: 700px;
+  width: 450px;
   border-bottom: 1px #ccc solid;
   height: 45px;
   display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: top;
 }
 .links {
   font-family: 'microsoft yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -616,12 +633,12 @@ footer > p {
   clear: both;
 }
 .con_left {
-  height: 1430px;
+  /* height: 1430px; */
   width: 300px;
   position: relative;
   min-height: 600px;
   padding-top: 50px;
-  border-right: 4px solid #d2d2d2;
+  /* border-right: 4px solid #d2d2d2; */
   float: left;
 }
 .con_right {
@@ -631,6 +648,7 @@ footer > p {
   box-sizing: border-box;
   margin-top: 50px;
   float: right;
+  border-left: 4px solid #d2d2d2;
 }
 .con_left > p {
   font-size: 20px;
@@ -701,7 +719,7 @@ footer > p {
   vertical-align: top;
   line-height: 90px;
   color: #5f5c5c;
-  font-size: 20px;
+  font-size: 18px;
 }
 .more_pages {
   color: #666;
@@ -913,14 +931,17 @@ footer > p {
   line-height: 10px;
   text-align: center;
   padding: 23px;
-  /* border-bottom: 1px #fff solid; */
+  /* max-width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; */
 }
 #nav .firs_nav li a:hover {
   color: #f4792c;
 }
- #nav li:hover .firs_nav {
+#nav li:hover .firs_nav {
   display: block;
-} 
+}
 .firs_nav ul {
   width: 102px;
   background-color: #2954a2;
@@ -929,12 +950,12 @@ footer > p {
   top: 0;
   display: none;
 }
- .firs_nav li:hover ul {
+.firs_nav li:hover ul {
   display: block;
 }
 .firs_nav li ul:hover {
   display: block;
-} 
+}
 
 /* ------------------------------------newnav */
 .newnav_left p {
@@ -986,4 +1007,69 @@ footer > p {
 }
 .seedetail a {
   color: #191919;
+}
+/* teacher_detail.css */
+.con_teachers li {
+  float: left;
+  width: 155px;
+  padding: 0 40px 40px;
+  box-sizing: content-box;
+  position: relative;
+}
+.teacer_hover > a {
+  display: block;
+  width: 155px;
+  height: 155px;
+  padding: 5px;
+  border-radius: 50%;
+  box-shadow: 0 2px 2px #d1d1d1;
+  overflow: hidden;
+}
+.teacher_img {
+  width: 155px;
+  height: 155px;
+  border-radius: 50%;
+}
+
+.teacer_hover > p {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  overflow: hidden;
+}
+.teacher_intro {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 10px 10px;
+  background: #edeef0;
+  border-top: 4px solid #2954a2;
+  border-bottom: 4px solid #f4792c;
+  z-index: 99;
+  display: none;
+}
+.teacher_intro h3 {
+  font-weight: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.teacher_intro p {
+  color: #666;
+  font-size: 12px;
+  height: 125px;
+  line-height: 25px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+.teacher_intro a {
+  display: inline-block;
+  text-decoration: none;
+  color: #2954a2;
+  font-size: 12px;
+  padding: 3px 10px;
+  border: 1px solid #2954a2;
+  border-radius: 5px;
+}
+.teacer_hover:hover .teacher_intro {
+  display: block;
 }
